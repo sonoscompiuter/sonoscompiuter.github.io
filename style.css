@@ -1,0 +1,26 @@
+
+{
+  .btn-172{
+    line-height: 80px;
+    width: 80px;
+    @include media($tablet, max) {
+      line-height: 60px;
+      width: 60px;
+    }
+  }
+
+  .line-172{
+    height:calc(100% - 120px);
+    width:1px;
+    background: rgba($default-white-color, .3);
+  }
+
+  &.whiteSlide .line-172{
+    background:rgba($default-text-color, .1);
+  }
+  @media(max-width: $tablet){
+  	.fix-12-12 .fixedSpaces{
+    align-items: flex-end;
+    }
+  }
+}
