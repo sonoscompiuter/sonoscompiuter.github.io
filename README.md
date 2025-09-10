@@ -1,2 +1,2 @@
 # sonoscompiuter.github.io
-tentativa de site estático pessoal
+Não era pra você estar vendo isso.
